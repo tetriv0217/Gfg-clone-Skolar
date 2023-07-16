@@ -1,0 +1,41 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg,rgb(39, 40, 39) 1px, black 97%, rgb(92, 91, 91));
+}
+.myButton{
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px solid white !important;
+    border-radius: 50% !important;
+    background-color: darkgreen !important;
+}
+.h2Font{
+    font-family: 'Source Sans 3', sans-serif ;
+    font-size: 24px ;
+    color: white ;
+}
+.pFont{
+    font-family: 'Nunito', sans-serif;
+    color: #a5a5a5;
+    text-align: left;
+    font-size: 15px;
+}
+.cardBgcolor{
+    background-color: #191919 !important;
+}
+.containerBgcolor{
+    background-color: black;
+    background: linear-gradient(0deg,rgb(19, 22, 19) 1px, black 90%, rgb(92, 91, 91));
+}
+.cardShadow:hover{
+    box-shadow: 1px 1px 10px  rgb(158, 157, 157);
+    transition: 800ms;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
