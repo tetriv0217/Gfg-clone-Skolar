@@ -1,44 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Geeksforgeeks</title>
-  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeksforgeeks:🌍</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Source+Sans+3:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c51c3af89f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://media.geeksforgeeks.org/wp-content/uploads/20210101144014/gfglogo.png"
+        type="image/x-icon">
 </head>
 
 <body>
-  
-  <header> 
-   
-    <div class="navbar2 dflex jc a">
-    
-       
-       
-         <a href="https://www.geeksforgeeks.org/data-structures/ ">Data Structures</a>
-        
-         <a href="https://practice.geeksforgeeks.org/courses/data-science-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/ ">Data Science </a>
-         <a href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions ">Topic Practice </a>
-         <a href=" https://www.geeksforgeeks.org/python-programming-language/">Python </a>
-         <a href="https://www.geeksforgeeks.org/machine-learning/ "> Machine Learning</a>
-         <a href="https://www.geeksforgeeks.org/learn-javascript-js-roadmap-for-beginners/ ">JS </a>
-         <a href=" https://www.geeksforgeeks.org/java/">Java </a>
-         <a href="https://www.geeksforgeeks.org/c-programming-language/ ">C </a>
-        <a href="https://www.geeksforgeeks.org/c-plus-plus/ "> C++</a>
-         <a href=" https://www.geeksforgeeks.org/learn-reactjs/">ReactJs </a>
-         <a href="https://www.geeksforgeeks.org/css/ "> CSS</a>
-         <a href="https://practice.geeksforgeeks.org/courses/competitive-programming-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/ ">Comp Programming </a>
-        <a href=" https://www.geeksforgeeks.org/aptitude-questions-and-answers/">Aptitude </a>
-         
-      
-       
-      
-      
-      
+    <div class="navbar">
+        <div id="main_logo">
+            <svg id="GFG" xmlns="http://www.w3.org/2000/svg" width="59.077" height="29.539" viewBox="0 0 59.077 29.539">
+                <path id="Path_402" data-name="Path 402"
+                    d="M193.664,1471.966H169.257a9.748,9.748,0,0,1,17.129-5.146l3.55-3.57a14.77,14.77,0,0,0-25.724,8.716h-.085a14.77,14.77,0,0,0-25.724-8.716l3.55,3.57a9.748,9.748,0,0,1,17.129,5.146H134.674q-.043.565-.044,1.141a14.771,14.771,0,0,0,29.149,3.383h.778a14.769,14.769,0,0,0,29.149-3.383Q193.708,1472.531,193.664,1471.966ZM149.4,1482.855a9.749,9.749,0,0,1-9.151-6.385h18.3A9.75,9.75,0,0,1,149.4,1482.855Zm29.538,0a9.75,9.75,0,0,1-9.152-6.385h18.3A9.75,9.75,0,0,1,178.939,1482.855Z"
+                    transform="translate(-134.631 -1458.338)" fill="#2f8d46" />
+            </svg>
+        </div>
+        <nav>
+            <div class="nav-left">
+                <span class="material-symbols-outlined  menu-icon">
+                    menu
+                </span>
+                <ul>
+                    <li>Course
+                        <div class="submenu-parent">
+                            <ul class="submenu">
+                                <li>Summer Skill Up
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                    <div class="submenu-two-parent">
+                                        <ul class="submenu-two">
+                                            <li>Android Development (Live)</li>
+                                            <li>ML Data Science (Live) </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>Data Structures & Algorithms
+                                    <i class="fa-solid fa-angle-up fa-rotate-90 arrow" style="color: #ffffff;"></i>
+                                    <div class="submenu-two-parent">
+                                        <ul class="submenu-two">
+                                            <li>DSA for Students
+                                                <i class="fa-solid fa-angle-up fa-rotate-90"
+                                                    style="color: #ffffff;"></i>
+                                            </li>
+                                            <li>DSA for working professionals
+                                                <i class="fa-solid fa-angle-up fa-rotate-90"
+                                                    style="color: #ffffff;"></i>
+                                            </li>
+                                            <li>DSA live in C++
+                                                <i class="fa-solid fa-angle-up fa-rotate-90"
+                                                    style="color: #ffffff;"></i>
+                                            </li>
+                                            <li>DSA live in Java
+                                                <i class="fa-solid fa-angle-up fa-rotate-90"
+                                                    style="color: #ffffff;"></i>
+                                            </li>
+                                            <li>DSA live in Python
+                                                <i class="fa-solid fa-angle-up fa-rotate-90"
+                                                    style="color: #ffffff;"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>For Working Professionals
+                                    <i class="fa-solid fa-angle-up fa-rotate-90 arrow" style="color: #ffffff;"></i>
+                                </li>
+                                <li>For Students
+                                    <i class="fa-solid fa-angle-up fa-rotate-90 arrow" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Programming Languages
+                                    <i class="fa-solid fa-angle-up fa-rotate-90 arrow" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Web Development
+                                    <i class="fa-solid fa-angle-up fa-rotate-90 arrow" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Machine Learning and Data Science
+                                    <i class="fa-solid fa-angle-up fa-rotate-90 arrow" style="color: #ffffff;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <i class="fa-solid fa-angle-up fa-rotate-180 arrow" style="color: #ffffff;"></i>
+                    <li>Tutorials
+                        <div class="submenu-parent">
+                            <ul class="submenu">
+                                <li>Interview Corner
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Languages
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Web Development
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>ML & Data Science
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <i class="fa-solid fa-angle-up fa-rotate-180 arrow" style="color: #ffffff;"></i>
+                    <li>Jobs
+                        <div class="submenu-parent">
+                            <ul class="submenu">
+                                <li>For Job Seekers
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>For Recruiters
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <i class="fa-solid fa-angle-up fa-rotate-180 arrow" style="color: #ffffff;"></i>
+                    <li>Practice
+                        <div class="submenu-parent">
+                            <ul class="submenu">
+                                <li>All DSA Problems
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Proble of the Day
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Curated DSA List
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>ML & Data Science
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <i class="fa-solid fa-angle-up fa-rotate-180 arrow" style="color: #ffffff;"></i>
+                    <li>Contests
+                        <div class="submenu-parent">
+                            <ul class="submenu">
+                                <li>Weekly Coding Contest
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>Hiring Challenge
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                                <li>All contests and Quiz
+                                    <i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <i class="fa-solid fa-angle-up fa-rotate-180 arrow" style="color: #ffffff;"></i>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="button-box icon"><a href="">Sign in</a></div>
+                <div class="icon"><span class="material-symbols-outlined">
+                        g_translate</span></div>
+                <div class="icon"><span class="material-symbols-outlined">
+                        light_mode</span></div>
+                <div id="search" class="icon"><span class="material-symbols-outlined">
+                        search</span>
+                    <div class="search-bar">
+                        <span class="material-symbols-outlined">
+                            search</span>
+                        <input type="text" id="searchbar" placeholder="Search Here" name="searchbar">
+                        <span class="material-symbols-outlined">
+                            close
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </div>
-  </header>
-   
-  </div>
+
+
+    <div class="navbar2 dflex jc ">
+        <a  target="_blank" href="https://www.geeksforgeeks.org/data-structures/ ">Data Structures</a>
+
+        <a target="_blank" 
+            href="https://practice.geeksforgeeks.org/courses/data-science-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/ ">Data
+            Science </a>
+        <a target="_blank" href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions ">Topic Practice </a>
+        <a target="_blank" href=" https://www.geeksforgeeks.org/python-programming-language/">Python </a>
+        <a target="_blank" href="https://www.geeksforgeeks.org/machine-learning/ "> Machine Learning</a>
+        <a target="_blank" href="https://www.geeksforgeeks.org/learn-javascript-js-roadmap-for-beginners/ ">JS </a>
+        <a target="_blank" href=" https://www.geeksforgeeks.org/java/">Java </a>
+        <a target="_blank" href="https://www.geeksforgeeks.org/c-programming-language/ ">C </a>
+        <a target="_blank" href="https://www.geeksforgeeks.org/c-plus-plus/ "> C++</a>
+        <a target="_blank" href=" https://www.geeksforgeeks.org/learn-reactjs/">ReactJs </a>
+        <a target="_blank" href="https://www.geeksforgeeks.org/css/ "> CSS</a>
+        <a target="_blank"
+            href="https://practice.geeksforgeeks.org/courses/competitive-programming-live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/ ">Comp
+            Programming </a>
+        <a target="_blank" href=" https://www.geeksforgeeks.org/aptitude-questions-and-answers/">Aptitude </a>
+
+
+
+    </div>
+
+
+    
+    <div class="container   containerBgcolor rounded" data-bs-theme="dark">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <a href="https://www.geeksforgeeks.org/c-file-pointer/" target="_blank">
+                    <div class="card   my-5  rounded border border-0 cardShadow">
+                        <img src="https://media.geeksforgeeks.org/auth-dashboard-uploads/read.png" class="rounded-top"
+                            alt="">
+                        <div class="card-body bg-black bg-gradient rounded-bottom  cardBgcolor">
+                            <h2 class="h2Font">C File Pointer</h2>
+                            <p class="pFont">A file pointer is a variable that is used to refer to an opened file in a C
+                                program. The file pointer is used...</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <a href="https://practice.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=submissions&sprint_name=SDE%20Sheet&utm_medium=newui_home&utm_campaign=first_section"
+                    target="_blank">
+                    <div class="card my-5  rounded border border-0 cardShadow">
+                        <img src="https://media.geeksforgeeks.org/auth-dashboard-uploads/practice.png"
+                            class="rounded-top" alt="">
+                        <div class="card-body bg-black bg-gradient rounded-bottom cardBgcolor">
+                            <h2 class="h2Font">Explore Practice Problems</h2>
+                            <p class="pFont">Solve DSA Problems. Filter based on topic tags and company tags. Get
+                                curated problem lists by GFG ex...</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-12 ">
+                <a href="https://practice.geeksforgeeks.org/courses/complete-interview-preparation/?utm_source=geeksforgeeks&utm_medium=newui_home&utm_campaign=first_section"
+                    target="_blank">
+                    <div class="card  my-5 rounded border border-0 cardShadow">
+                        <img src="https://media.geeksforgeeks.org/auth-dashboard-uploads/learn.png" class="rounded-top"
+                            alt="">
+                        <div class="card-body bg-black bg-gradient rounded-bottom cardBgcolor">
+                            <h2 class="h2Font">Interview Preparation</h2>
+                            <p class="pFont">An interview-centric course designed to prepare you for the role of SDE for
+                                both product and service...</p>
+                        </div>
+                    </div>
+            </div></a>
+            <div class="col">
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col">
+            </div>
+            <div id="carouselExampleAutoplaying" class="carousel slide col-9" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                        class="active  myButton " aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                        class=" myButton " aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                        class=" myButton " aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                        class=" myButton " aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner  border border-secondary-subtle rounded ">
+                    <div class="carousel-item active">
+                        <a href="https://www.geeksforgeeks.org/geeksforgeeks-community-join-our-geeks-squad/"
+                            target="_blank">
+                            <div class="row featurette">
+                                <div class="col-md-5 col-lg-5 order-md-2">
+                                    <h2 class="h2Font mt-4 mx-4 ">GeeksforGeeks Community - Join Our Geeks Squad!</h2>
+                                    <p class="pFont mt-2 mx-4">In the modern era of online learning, hybrid work
+                                        environments, and intense competition, college students struggle to choose the
+                                        right computer science career path, Smart ...</p>
+                                </div>
+                                <div class="col-md-7 col-lg-7 col-xl-7  order-md-1">
+                                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230704113812/GeeksforGeeks-Community.webp"
+                                        class="d-block w-100" height="270">
+                                </div>
+                            </div>
+                    </div></a>
+                    <div class="carousel-item">
+                        <a href="https://www.geeksforgeeks.org/write-it-up-event-2023-share-your-experiences-on-geeksforgeeks/"
+                            target="_blank">
+                            <div class="row featurette">
+                                <div class="col-md-5 col-lg-5 order-md-2">
+                                    <h2 class="h2Font mt-4 mx-4 ">Write It Up Event 2023 | Share your Experiences on
+                                        GeeksforGeeks</h2>
+                                    <p class="pFont mt-2 mx-4">Geeksforgeeks has come up with an event this year where
+                                        you can share your experiences and win exciting goodies. As simple as it sounds,
+                                        all you have to do is visit our po...</p>
+                                </div>
+                                <div class="col-md-7 col-lg-7 col-xl-7  order-md-1">
+                                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230612174504/Write-it-up-2023.webp"
+                                        class="d-block w-100" height="270">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.geeksforgeeks.org/100-days-of-machine-learning/" target="_blank">
+                            <div class="row featurette">
+                                <div class="col-md-5 col-lg-5 order-md-2">
+                                    <h2 class="h2Font mt-4 mx-4 ">100 Days of Machine Learning - A Complete Guide For
+                                        Beginners</h2>
+                                    <p class="pFont mt-2 mx-4">Machine learning is a rapidly growing field within the
+                                        broader domain of Artificial Intelligence. It involves developing algorithms
+                                        that can automatically learn patterns a...</p>
+                                </div>
+                                <div class="col-md-7 col-lg-7 col-xl-7  order-md-1">
+                                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230505175603/100-Days-of-Machine-Learning.webp"
+                                        class="d-block w-100" height="270">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.geeksforgeeks.org/introduction-machine-learning/" target="_blank">
+                            <div class="row featurette">
+                                <div class="col-md-5 col-lg-5 order-md-2">
+                                    <h2 class="h2Font mt-4 mx-4 ">An introduction to Machine Learning</h2>
+                                    <p class="pFont mt-2 mx-4">Arthur Samuel, an early American leader in the field of
+                                        computer gaming and artificial intelligence, coined the term "Machine Learning "
+                                        in 1959 while at IBM. He defined m...</p>
+                                </div>
+                                <div class="col-md-7 col-lg-7 col-xl-7  order-md-1">
+                                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230706133033/An-introduction-to-Machine-Learning-01.webp"
+                                        class="d-block w-100" height="270">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
