@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    font-family: 'Source Sans 3', sans-serif;
+    --bgcn : rgb(34, 34, 33);
+    --c : white;
+    --hc : #308D46;
+}
 
 body{
     height: 100vh;
@@ -5,6 +18,202 @@ body{
     padding: 0;
     background: linear-gradient(0deg,rgb(39, 40, 39) 1px, black 97%, rgb(92, 91, 91));
 }
+
+
+/*navbar css*/
+.navbar{
+    background-color: var(--bgcn);
+    color: var(--c);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#main_logo{
+    position: absolute;
+    left: calc(50% - 30px); 
+    z-index: 1;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: var(--bgcn);
+}
+
+.nav-left{
+    width: fit-content;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.nav-left ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.arrow{
+    cursor: pointer;
+}
+
+.nav-left ul li:hover{
+    color: #308D46;
+}
+
+.nav-left > ul > li:not(:first-child){
+    margin-left: 18px;
+}
+
+.nav-right{
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    margin-right: 24px;
+    height: 50px;
+}
+
+.button-box{
+    padding: 7px 27px;
+    border-radius: 5px;
+    background-color: #273239;
+}
+
+.button-box a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-right span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+/* submenu in navbar */
+
+.submenu-parent{
+    position: absolute;
+}
+
+.submenu{
+    position: relative;
+    top:15px;
+    font-size: 14px;
+    border-top: 4px solid #308D46;
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 20px;
+    background-color: var(--bgcn);
+    color: white;
+}
+
+.submenu > li {
+    margin-top : 20px;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+.nav-left ul li:hover .submenu{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submenu-two-parent{
+    position: absolute;
+}
+
+.submenu-two{
+   display: none;
+   position: relative;
+   left:251px;
+   top:-57px;
+   border-top: 4px solid #308D46;
+   width: fit-content;
+   height: fit-content;
+   padding: 7px 20px;
+   background-color: var(--bgcn);
+   color: white;
+}
+
+.submenu-two > li {
+    margin-top : 20px;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+ .submenu > li:hover .submenu-two-parent > .submenu-two{
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
+
+
+/* Search bar in right nav */
+
+.search-bar{
+    position: relative;
+    display: none;
+    border-radius: 5px;
+    align-items: center;
+    height: 37px;
+    top: -17px;
+    margin-right: 15px;
+    background-color: #273239;
+}
+
+.search-bar > input{
+    border: none;
+    background-color: inherit;
+    color: white;
+    width: 300px;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 1200px) {
+   
+   body{
+    white-space:nowrap;
+   }
+
+    .nav-left ul{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .nav-left{
+        margin-left: 20px;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    #search{
+        display: block;
+        margin-right: -5px;
+    }
+  }
+
+
+
+
 .myButton{
     height: 12px !important;
     width: 12px !important;
