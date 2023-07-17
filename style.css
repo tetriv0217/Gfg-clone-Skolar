@@ -1,9 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
+body{
 
-*{
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, black 57%, rgb(92, 91, 91));
+    overflow-x: hidden; 
+    height: 100vh;
 }
+.myButton{
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px solid white !important;
+    border-radius: 50% !important;
+    background-color: darkgreen !important;
+}
+.h2Font{
+    font-family: 'Source Sans 3', sans-serif ;
+    font-size: 24px ;
+    color: white ;
+}
+.pFont{
+    font-family: 'Nunito', sans-serif;
+    color: #a5a5a5;
+    text-align: left;
+    font-size: 15px;
+}
+.cardBgcolor{
+    background-color: #191919 !important;
+}
+.containerBgcolor{
+    background-color: black;
+    background: linear-gradient(0deg,rgb(19, 22, 19) 1px, black 94%, rgb(57, 56, 56));
+}
+.cardShadow:hover{
+    box-shadow: 1px 1px 10px  rgb(158, 157, 157);
+    transition: 800ms;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
 
 :root{
     font-family: 'Source Sans 3', sans-serif;
@@ -12,19 +49,11 @@
     --hc : #308D46;
 }
 
-body{
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(0deg,rgb(39, 40, 39) 1px, black 97%, rgb(92, 91, 91));
-}
-
-
 /*navbar css*/
 .navbar{
     background-color: var(--bgcn);
     color: var(--c);
-    width: 100%;
+    width: 100vw;
     height: 50px;
     display: flex;
     align-items: center;
@@ -87,7 +116,7 @@ nav{
 }
 
 .button-box a{
-    color: white;
+    color: white !important;
     text-decoration: none;
     font-size: 14px;
 }
@@ -114,8 +143,8 @@ nav{
     height: fit-content;
     padding: 7px 20px;
     background-color: var(--bgcn);
-    color: white;
     z-index: 1024;
+    color: white;
 }
 
 .submenu > li {
@@ -143,6 +172,7 @@ nav{
    width: fit-content;
    height: fit-content;
    padding: 7px 20px;
+   z-index: 1024;
    background-color: var(--bgcn);
    color: white;
 }
@@ -185,7 +215,7 @@ nav{
 /*Responsive*/
 
 @media only screen and (max-width: 1200px) {
-   
+
    body{
     white-space:nowrap;
    }
@@ -212,40 +242,22 @@ nav{
     }
   }
 
-
-
-
-.myButton{
-    height: 12px !important;
-    width: 12px !important;
-    border: 2px solid white !important;
-    border-radius: 50% !important;
-    background-color: darkgreen !important;
-}
-.h2Font{
-    font-family: 'Source Sans 3', sans-serif ;
-    font-size: 24px ;
-    color: white ;
-}
-.pFont{
-    font-family: 'Nunito', sans-serif;
-    color: #a5a5a5;
-    text-align: left;
-    font-size: 15px;
-}
-.cardBgcolor{
-    background-color: #191919 !important;
-}
-.containerBgcolor{
-    background-color: black;
-    background: linear-gradient(0deg,rgb(19, 22, 19) 1px, black 90%, rgb(92, 91, 91));
-}
-.cardShadow:hover{
-    box-shadow: 1px 1px 10px  rgb(158, 157, 157);
-    transition: 800ms;
-    cursor: pointer;
-    transform: scale(1.05);
-}
-a{
+  .navbar2{
+    height:60px;
+    width:100vw;
+    background-color: #222221;
+  }
+  .navbar2 a{
     text-decoration: none;
-}
+    color: whitesmoke;
+  }
+  
+  
+  .dflex{
+    display: flex;
+    align-items: center;
+  }
+  .jc{
+    justify-content: space-evenly;
+  
+  }
