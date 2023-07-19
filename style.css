@@ -1,56 +1,92 @@
-body{
-
+/* By Tejas and Samitha Combined*/
+body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(0deg, black 57%, rgb(92, 91, 91));
-    overflow-x: hidden; 
-    height: 100vh;
+    background: linear-gradient(0deg, black 27%, rgb(72, 72, 72));
+    overflow-x: hidden;
 }
-.myButton{
+
+.myButton {
     height: 12px !important;
     width: 12px !important;
     border: 2px solid white !important;
     border-radius: 50% !important;
     background-color: darkgreen !important;
 }
-.h2Font{
-    font-family: 'Source Sans 3', sans-serif ;
-    font-size: 24px ;
-    color: white ;
+
+.h2Font {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    color: white;
 }
-.pFont{
+
+.pFont {
     font-family: 'Nunito', sans-serif;
     color: #a5a5a5;
     text-align: left;
     font-size: 15px;
 }
-.cardBgcolor{
+
+.cardBgcolor {
     background-color: #191919 !important;
 }
-.containerBgcolor{
-    background-color: black;
-    background: linear-gradient(0deg,rgb(19, 22, 19) 1px, black 94%, rgb(57, 56, 56));
+
+.containerBgcolor {
+    background: linear-gradient(0deg, rgb(19, 22, 19) 1px, black 54%, rgb(54, 54, 54));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.cardShadow:hover{
-    box-shadow: 1px 1px 10px  rgb(158, 157, 157);
+
+.cardShadow:hover {
+    box-shadow: 1px 1px 10px rgb(158, 157, 157);
     transition: 800ms;
     cursor: pointer;
     transform: scale(1.05);
 }
-a{
-    text-decoration: none;
+
+footer {
+    background-color: #222221;
+    padding: 4px;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
 }
+
+.communityStickBar {
+    position: fixed;
+    height: 48px;
+    width: 200px;
+    background-color: #016CCC;
+    z-index: 1000;
+    margin-left: 85%;
+    margin-top: 44%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    box-shadow: 0 0 12px rgba(63, 140, 253, .36);
+}
+
+.communityStickBar:hover {
+    box-shadow: 0 0 16px 6px #3e8cfe;
+    transition: 0.3s;
+}
+
+
+/* By Indhu */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
 
-:root{
+:root {
     font-family: 'Source Sans 3', sans-serif;
-    --bgcn : rgb(34, 34, 33);
-    --c : white;
-    --hc : #308D46;
+    --bgcn: rgb(34, 34, 33);
+    --c: white;
+    --hc: #308D46;
 }
 
 /*navbar css*/
-.navbar{
+.navbar {
     background-color: var(--bgcn);
     color: var(--c);
     width: 100vw;
@@ -59,48 +95,48 @@ a{
     align-items: center;
 }
 
-#main_logo{
+#main_logo {
     position: absolute;
-    left: calc(50% - 30px); 
+    left: calc(50% - 30px);
     z-index: 1;
 }
 
 
-nav{
+nav {
     display: flex;
     width: 100%;
     background-color: var(--bgcn);
 }
 
-.nav-left{
+.nav-left {
     width: fit-content;
     margin-left: 45px;
     display: flex;
     align-items: center;
 }
 
-.menu-icon{
+.menu-icon {
     display: none;
 }
 
-.nav-left ul li{
+.nav-left ul li {
     display: inline-block;
     cursor: pointer;
 }
 
-.arrow{
+.arrow {
     cursor: pointer;
 }
 
-.nav-left ul li:hover{
+.nav-left ul li:hover {
     color: #308D46;
 }
 
-.nav-left > ul > li:not(:first-child){
+.nav-left>ul>li:not(:first-child) {
     margin-left: 18px;
 }
 
-.nav-right{
+.nav-right {
     display: flex;
     flex-grow: 1;
     flex-flow: row-reverse nowrap;
@@ -109,19 +145,23 @@ nav{
     height: 50px;
 }
 
-.button-box{
+.iconsss {
+    color: white;
+}
+
+.button-box {
     padding: 7px 27px;
     border-radius: 5px;
     background-color: #273239;
 }
 
-.button-box a{
+.button-box a {
     color: white !important;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1px;
 }
 
-.nav-right span{
+.nav-right span {
     margin-right: 20px;
     cursor: pointer;
 }
@@ -129,13 +169,13 @@ nav{
 
 /* submenu in navbar */
 
-.submenu-parent{
+.submenu-parent {
     position: absolute;
 }
 
-.submenu{
+.submenu {
     position: relative;
-    top:15px;
+    top: 15px;
     font-size: 14px;
     border-top: 4px solid #308D46;
     display: none;
@@ -147,46 +187,46 @@ nav{
     color: white;
 }
 
-.submenu > li {
-    margin-top : 20px;
+.submenu>li {
+    margin-top: 20px;
     padding: 5px 5px;
     text-align: left;
 }
 
-.nav-left ul li:hover .submenu{
+.nav-left ul li:hover .submenu {
     display: flex;
     flex-direction: column;
 }
 
 
-.submenu-two-parent{
+.submenu-two-parent {
     position: absolute;
 }
 
-.submenu-two{
-   display: none;
-   position: relative;
-   left:251px;
-   top:-57px;
-   border-top: 4px solid #308D46;
-   width: fit-content;
-   height: fit-content;
-   padding: 7px 20px;
-   z-index: 1024;
-   background-color: var(--bgcn);
-   color: white;
+.submenu-two {
+    display: none;
+    position: relative;
+    left: 251px;
+    top: -57px;
+    border-top: 4px solid #308D46;
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 20px;
+    z-index: 1024;
+    background-color: var(--bgcn);
+    color: white;
 }
 
-.submenu-two > li {
-    margin-top : 20px;
+.submenu-two>li {
+    margin-top: 20px;
     padding: 5px 5px;
     text-align: left;
 }
 
- .submenu > li:hover .submenu-two-parent > .submenu-two{
+.submenu>li:hover .submenu-two-parent>.submenu-two {
     display: flex;
     flex-direction: column;
-} 
+}
 
 
 
@@ -194,7 +234,7 @@ nav{
 
 /* Search bar in right nav */
 
-.search-bar{
+.search-bar {
     position: relative;
     display: none;
     border-radius: 5px;
@@ -205,7 +245,7 @@ nav{
     background-color: #273239;
 }
 
-.search-bar > input{
+.search-bar>input {
     border: none;
     background-color: inherit;
     color: white;
@@ -216,48 +256,137 @@ nav{
 
 @media only screen and (max-width: 1200px) {
 
-   body{
-    white-space:nowrap;
-   }
+    body {
+        white-space: nowrap;
+    }
 
-    .nav-left ul{
+    .nav-left ul {
         display: none;
     }
 
-    .menu-icon{
+    .menu-icon {
         display: block;
     }
 
-    .nav-left{
+    .nav-left {
         margin-left: 20px;
     }
 
-    .icon{
+    .icon {
         display: none;
     }
 
-    #search{
+    #search {
         display: block;
         margin-right: -5px;
     }
-  }
+}
 
-  .navbar2{
-    height:60px;
-    width:100vw;
+/* By Srikari */
+
+.navbar2 {
+    height: 40px;
+    width: 100vw;
     background-color: #222221;
-  }
-  .navbar2 a{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar2 a {
     text-decoration: none;
     color: whitesmoke;
-  }
-  
-  
-  .dflex{
+}
+
+.navbar2 :hover {
+    color: green !important;
+    transition: 0.3s;
+}
+
+.dflex {
     display: flex;
     align-items: center;
-  }
-  .jc{
+}
+
+.jc {
     justify-content: space-evenly;
-  
-  }
+}
+
+/* By Kamal */
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbox {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbox>input {
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0;
+    border: 0;
+    outline: none;
+    padding: 10px;
+}
+
+.navbox ::placeholder {
+    color: #40a84e;
+}
+
+.navbox>button {
+    width: 120px;
+    height: 45px;
+    text-align: auto;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    border: 0;
+}
+
+.folder {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.folder>a {
+    color: white;
+    font-size: 12px;
+    background-color: rgb(40, 39, 39);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#heading {
+    margin-top: 10px;
+    padding: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(235, 235, 235);
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    color: #e4e8e5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
