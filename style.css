@@ -79,7 +79,7 @@ footer {
     font-family: monospace;
 }
 #cookies button:hover{
-    box-shadow: 0 0 16px 6px red;
+    box-shadow: 0 0 16px 1px red;
 }
 
 .communityStickBar {
@@ -97,7 +97,7 @@ footer {
     box-shadow: 0 0 12px rgba(63, 140, 253, .36);
 }
 .communityStickBar:hover {
-    box-shadow: 0 0 16px 1px #3e8cfe;
+    box-shadow: 0 0 16px 6px #3e8cfe;
     transition: 0.3s;
 }
 
