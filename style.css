@@ -53,6 +53,34 @@ footer {
     font-size: 20px;
     font-weight: 200;
 }
+#cookies{
+    z-index: 1515151;
+    background-color: #308D46;
+    height: 50px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top:93.4%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.invisible{
+    visibility: hidden;
+}
+.cookiesButton{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 90px;
+    height: 33px;
+    background-color:rgb(239, 251, 18);
+    color: rgb(27, 22, 26);
+    margin-left: 15px;
+    font-family: monospace;
+}
+#cookies button:hover{
+    box-shadow: 0 0 16px 6px red;
+}
 
 .communityStickBar {
     position: fixed;
@@ -68,9 +96,8 @@ footer {
     color: white;
     box-shadow: 0 0 12px rgba(63, 140, 253, .36);
 }
-
 .communityStickBar:hover {
-    box-shadow: 0 0 16px 6px #3e8cfe;
+    box-shadow: 0 0 16px 1px #3e8cfe;
     transition: 0.3s;
 }
 
