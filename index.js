@@ -40,3 +40,8 @@ inputElement.addEventListener("blur", function () {
 });
 
 typeAndDisappearText(currentTextIndex, 0);
+
+function removeCookies() {
+  document.getElementById("cookies").classList.add("invisible")
+}
+
